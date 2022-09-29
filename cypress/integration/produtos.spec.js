@@ -15,7 +15,7 @@ describe('Funcionalidade Página de produtos', () => {
             .click()
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 10
 
         cy.get('[class="product-block grid"]')
@@ -26,7 +26,15 @@ describe('Funcionalidade Página de produtos', () => {
         cy.get('.single_add_to_cart_button').click()
 
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
-        cy.get('.woocommerce-message').should('contain',  quantidade + ' × “Autumn Pullie” foram adicionados no seu carrinho.')
+        cy.get('.woocommerce-message').should('contain', quantidade + ' × “Autumn Pullie” foram adicionados no seu carrinho.')
     });
 
+
+    it('Deve adicionar produtos ao carrinho - Usando comando customizado ', () => {
+        cy.addProdutos('Balboa Persistence Tee', 'M', 'Orange', 2)
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando comando customizado ', () => {
+        cy.addProdutos('Autumn Pullie', 'XS', 'Purple', 5)
+    });
 });
