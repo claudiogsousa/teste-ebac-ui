@@ -1,0 +1,47 @@
+[
+{
+   "nome": "Ana",
+   "sobrenome": "Lucia",
+   "empresa": "AOBA",
+   "endereco": "Av. Paulista",
+   "numero": "3054",
+   "pais": "Brasil",
+   "cidade": "São Paulo",
+   "estado": "São Paulo",
+   "cep": "01000100",
+   "telefone": "11999999999",
+   "email": "analucia@aoba.com"
+},
+{
+    "nome": "Alberto",
+    "sobrenome": "Roberto",
+    "empresa": "AOBA",
+    "endereco": "Av. Paulista",
+    "numero": "3054",
+    "pais": "Brasil",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "cep": "01000100",
+    "telefone": "11999999999",
+    "email": "alberto@aoba.com"
+    
+},
+{
+    "nome": "Carlos",
+    "sobrenome": "Alberto",
+    "empresa": "AOBA",
+    "endereco": "Av. Paulista",
+    "numero": "3054",
+    "pais": "Brasil",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "cep": "01000100",
+    "telefone": "11999999999",
+    "email": "charlesalbert@aoba.com"
+    
+}
+
+
+
+
+]
